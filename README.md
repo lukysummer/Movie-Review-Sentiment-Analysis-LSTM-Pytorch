@@ -9,7 +9,7 @@ This is my implementation of Sentiment Analysis using **Long-Short Term Memory (
    
 
    
-## Main components of the network:
+## Main Components of the Network
 
 I. **Word2Vec Embedding** - used to reduce dimensionality, as there are tens of thousands of words in the entire vocabulary of all reviews. Each of those words are represented as vectors in 400-dimension space.
 
@@ -25,7 +25,7 @@ This repository contains:
 		
 		
 			
-## List of Hyperparameters used:
+## List of Hyperparameters Used:
 
 * Batch Size = **50**
 * Sequence Length for Movie Reviews = **200**  
