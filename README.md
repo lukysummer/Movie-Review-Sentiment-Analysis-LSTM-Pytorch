@@ -1,6 +1,6 @@
 # Sentiment Analysis of Movie Reviews using Word2Vec & LSTM Network (in PyTorch)
 
-This is my implementation of Sentiment Analysis using Long-Short Term Memory (LSTM) Network. The code performs:
+This is my implementation of Sentiment Analysis using **Long-Short Term Memory (LSTM) Network**. The code performs:
 
 1. Loading and pre-processing raw reviews & labels data
 2. Building a deep neural network including Word2Vec embeddings and LSTM layers
@@ -9,7 +9,9 @@ This is my implementation of Sentiment Analysis using Long-Short Term Memory (LS
    
    
 Main components of the network:
+
 I. **Word2Vec Embedding** - used to reduce dimensionality, as there are tens of thousands of words in the entire vocabulary of all reviews. Each of those words are represented as vectors in 400-dimension space.
+
 II. **LSTM Layers** - used to look at the review texts as the sequence of inputs, rather than individual, in order to take advantage of the bigger context of the text.
 
 
