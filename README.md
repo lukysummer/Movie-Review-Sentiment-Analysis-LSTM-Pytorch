@@ -43,6 +43,3 @@ This repository contains:
 I referenced the following sources for building & debugging the final model :
 
 * https://github.com/udacity/deep-learning-v2-pytorch
-
-
-
