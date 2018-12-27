@@ -6,7 +6,6 @@ This is my implementation of Sentiment Analysis using **Long-Short Term Memory (
 2. Building a deep neural network including Word2Vec embeddings and LSTM layers
 3. Test the performance of the model in classifying a random review as postive or negative.
    
-   
 
    
 ## Main Components of the Network
