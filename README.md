@@ -1,4 +1,4 @@
-# Sentiment Analysis of Movie Reviews using Word2Vec & LSTM (in PyTorch)
+# Sentiment Analysis of Movie Reviews w/ Word2Vec & LSTM (PyTorch)
 
 This is my implementation of Sentiment Analysis using **Long-Short Term Memory (LSTM) Network**. The code performs:
 
