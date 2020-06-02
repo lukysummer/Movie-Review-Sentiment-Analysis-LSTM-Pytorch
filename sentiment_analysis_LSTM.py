@@ -105,7 +105,7 @@ test_loader = DataLoader(test_data, batch_size = batch_size, shuffle = True)
 ###############################################################################
 from torch import nn
 
-class SentimentLSTM(nn.module):
+class SentimentLSTM(nn.Module):
     
     def __init__(self, n_vocab, n_embed, n_hidden, n_output, n_layers, drop_p = 0.5):
         super().__init__()
@@ -175,7 +175,7 @@ print_every = 100
 step = 0
 n_epochs = 4  # validation loss increases from ~ epoch 3 or 4
 clip = 5  # for gradient clip to prevent exploding gradient problem in LSTM/RNN
-device = 'cuda' if torch.cuda.is_available else 'cpu'
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 for epoch in range(n_epochs):
     h = net.init_hidden(batch_size)
