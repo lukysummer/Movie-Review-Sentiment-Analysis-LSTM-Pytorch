@@ -35,7 +35,9 @@ word_counts = Counter(all_words)
 word_list = sorted(word_counts, keys = word_counts.get, reverse = True)
 vocab_to_int = {word:idx+1 for idx, word in enumerate(word_list)}
 int_to_vocab = {idx:word for word, idx in vocab_to_int.items()}
-encoded_reviews = [[vocab_to_int[word] for word in review] for review in all_reviews]
+# encoded_reviews = [[vocab_to_int[word] for word in review] for review in all_reviews]
+### fixed by Ritian-Li ###
+encoded_reviews = [[vocab_to_int.get(word) for word in review.split()] for review in all_reviews]
 
 
 ###############################################################################
